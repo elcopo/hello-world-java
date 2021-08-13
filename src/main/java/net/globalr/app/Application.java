@@ -15,6 +15,7 @@ public class Application {
                 .name("Jose")
                 .phoneNumber("04246665774")
                 .build();
+
         System.out.println(String.format("Client 1: %s", client.getName()));
         System.out.println(String.format("Client 2: %s", client2.getName()));
     }
